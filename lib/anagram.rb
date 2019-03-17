@@ -8,10 +8,10 @@ end
 
 def match(word_array)
    orig_word = []
+   matches = []
    orig_word = @word.split("")
    word_array.each {|x|
        new_word = []
-       matches = []
        new_word = x.split("")
        matches << x if orig_word.sort == new_word.sort
      }
