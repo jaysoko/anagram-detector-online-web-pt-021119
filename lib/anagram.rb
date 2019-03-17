@@ -7,7 +7,7 @@ def initialize(word)
 end
 
 def match(word_array)
-  word_array.each {|x| puts "#{x}"}
+  @word.split("")
 end
 
 end
