@@ -9,13 +9,11 @@ end
 def match(word_array)
    orig_word = []
    orig_word = @word.split("")
-   word_array.each do {|x|
+   word_array.each {|x|
        new_word = []
        new_word = x.split("")
        x if orig_word.sort == new_word.sort
      }
-   end
-
 end
 
 end
