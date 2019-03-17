@@ -13,7 +13,9 @@ def match(word_array)
        new_word = []
        new_word = x.split("")
        x if orig_word.sort == new_word.sort
+     }
    end
+
 end
 
 end
